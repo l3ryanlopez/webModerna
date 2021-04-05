@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,16 +9,103 @@
 
   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-  <header></header>
-  <main></main>
-  <footer>
-    <i class='bx bxl-facebook-circle' style='color:#001a80'  ></i>
-    <i class='bx bxl-twitter' style='color:#0ac0ef'  ></i>
-    <i class='bx bxl-instagram-alt' style='color:#0075b5'  ></i>
+  <header class="header" id="inicio">
+    <img class="menu" src="assets/img/menu.svg" alt="">
+    <nav class="menu-navegacion">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicio">Servicio</a>
+      <a href="#portafolio">Portafolio</a>
+      <a href="#expertos">Expertos</a>
+      <a href="#contactos">Contacto</a>
+    </nav>
+    <div class="contenedor head">
+      <h1>Convertimos tus sueños en realidad</h1>
+      <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quidem?</p>
+    </div>
+  </header>
+  <main>
+    <section class="services contenedor" id="servicio">
+      <h2 class="subtitulo"> Nuestro servicio</h2>
+      <div class="contenedor-servicio">
+        <img src="assets/img/Checklist.svg" alt="">
+        <div class="checklist-servicio">
+          <div class="service">
+            <h3 class="n-service"><span class="number">1</span>Diseño web</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos minima perspiciatis nisi adipisci, voluptatibus exercitationem laudantium fuga eaque, illum quia ipsam deserunt, at necessitatibus laborum.</p>
+          </div>
+          <div class="service">
+            <h3 class="n-service"><span class="number">2</span>Diseño web</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos minima perspiciatis nisi adipisci, voluptatibus exercitationem laudantium fuga eaque, illum quia ipsam deserunt, at necessitatibus laborum.</p>
+          </div>
+          <div class="service">
+            <h3 class="n-service"><span class="number">3</span>Diseño web</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos minima perspiciatis nisi adipisci, voluptatibus exercitationem laudantium fuga eaque, illum quia ipsam deserunt, at necessitatibus laborum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery" id="portafolio">
+      <div class="contenedor">
+        <h2 class="subtitulo">Galeria</h2>
+        <div class="contenedor-galeria">
+          <img src="assets/img/uno.jpg" alt="" class="img-galeria">
+          <img src="assets/img/dos.jpg" alt="" class="img-galeria">
+          <img src="assets/img/tres.jpg" alt="" class="img-galeria">
+          <img src="assets/img/cuatro.jpg" alt="" class="img-galeria">
+          <img src="assets/img/cinco.jpg" alt="" class="img-galeria">
+          <img src="assets/img/seis.jpg" alt="" class="img-galeria">
+        </div>
+      </div>
+    </section>
+    <!-- <section class="imagen-light">
+      <img src="assets/img/cerrar.svg" alt="" class="close">
+      <img src="" alt="" class="agregar-imagen">
+    </section> -->
+    <section class="contenedor" id="expertos">
+      <h2 class="subtitulo">Expertos en:</h2>
+      <section class="experts">
+        <div class="cont-expert">
+          <img src="assets/img/Analytics.svg" alt="">
+          <h3 class="n-expert">Analytics</h3>
+        </div>
+        <div class="cont-expert">
+          <img src="assets/img/Search.svg" alt="">
+          <h3 class="n-expert">SEO</h3>
+        </div>
+        <div class="cont-expert">
+          <img src="assets/img/Security.svg" alt="">
+          <h3 class="n-expert">Security</h3>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer id="contacto">
+    <div class="contenedor footer-content">
+      <div class="contact-us">
+        <h2 class="brand">Developed by &bernou;ryan&Lscr;opez</h2>
+        <p>Aplicamos tus sueños a la web</p>
+      </div>
+      <div class="social-media">
+        <a href="./" class="social-media-icon">
+          <i class='bx bxl-facebook-circle' style='color:#001a80'></i>
+        </a>
+        <a href="./" class="social-media-icon">
+          <i class='bx bxl-twitter' style='color:#0ac0ef'></i>
+        </a>
+        <a href="./" class="social-media-icon">
+          <i class='bx bxl-instagram-alt' style='color:#0075b5'></i>
+        </a>
+      </div>
+    </div>
   </footer>
+
+  <script src="assets/js/menu.js"></script>
+  <script src="assets/js/lightbox.js"></script>
 </body>
+
 </html>
